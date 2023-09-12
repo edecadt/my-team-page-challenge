@@ -1,0 +1,114 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Popins, sans-serif;
+}
+
+body {
+  width: 80%;
+  margin: 0 auto;
+}
+
+header {
+  margin-top: 110px;
+  display: flex;
+  color: #000;
+  margin-bottom: 80px;
+  column-gap: 20%;
+}
+
+header > h1 {
+  max-width: 300px;
+  font-family: PT Serif;
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: -1.62px;
+  margin-right: 215px;
+}
+
+.text-container h2 {
+  margin-bottom: 10px;
+  font-family: Poppins;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  text-transform: uppercase;
+}
+
+.text-container p {
+  max-width: 439px;
+  font-family: Poppins;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.image-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-column-gap: 58px;
+  grid-row-gap: 120px;
+}
+
+.image-item:nth-child(2),
+.image-item:nth-child(5) {
+  position: relative;
+  top: 80px;
+}
+
+.image-wrapper {
+  display: flex;
+}
+
+.image-wrapper img {
+  width: 100%;
+  max-width: 300px;
+}
+
+.title {
+  margin-top: 15px;
+  color: #000;
+  font-family: Poppins;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+
+.side-title {
+  margin-left: 10px;
+  color: #000;
+  font-family: PT Serif;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  text-transform: uppercase;
+  writing-mode: vertical-lr;
+}
+
+footer {
+  margin-top: 100px;
+  padding-bottom: 24px;
+  color: #a9a9a9;
+  text-align: center;
+  font-family: Montserrat;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+
+footer p {
+  color: #a9a9a9;
+  font-family: Montserrat;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 700;
+  text-decoration-line: underline;
+}
